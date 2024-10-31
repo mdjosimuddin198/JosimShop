@@ -1,0 +1,42 @@
+.allitems{
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-input{
+    flex-direction: column;
+    align-items: center;
+}
+#catagory{
+    flex-direction: column;
+    height: 200px;
+}
+
+.footer-input input{
+    font-size: 1rem;
+}
+#navbar ul{
+    /* flex-direction: column; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+}
+.item-some input{
+    font-size: 1rem;
+}
+#button {
+    margin-top: 10px;
+}
+header::before{
+    height: 720px;
+}
+.item-some a{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.item a{
+    margin: 10px;
+}
+.footer-input input{
+    border-bottom: 2px solid white;
+}
